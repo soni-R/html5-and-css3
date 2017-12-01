@@ -11,8 +11,8 @@
 		}
 		div{
 			width: 500px;
-			margin: 20px;
-			padding: 40px 30px 20px 10px;
+			/*float: left;*/
+			float: right;
 		}
 		#block1{
 			background-color: lightblue;
@@ -22,11 +22,19 @@
 		}
 		#block3{
 			background-color: pink;
+			float: none;
+			clear: both; /*other options left, right*/
 		}
+		img{
+			/*float: right;*/
+			float: left;
+		}
+		
 	</style>
 </head>
 
 <body>
+	<img src="images/golden-gate-sm.jpg" width="280" height="213">
 	<div id="block1">
 	<h1>Heading 1</h1>
 	<p>Paragraph 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
