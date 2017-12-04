@@ -93,3 +93,14 @@ footer nav a:link, footer nav a:visited{
 footer nav a:hover{
 	color: black;
 }
+
+th, td{
+	border:1px solid black;
+	width: 20%;
+	text-align: center;
+	padding: 5px;
+}
+
+table{
+	border-collapse: collapse;
+}
