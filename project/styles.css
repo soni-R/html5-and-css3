@@ -104,3 +104,11 @@ th, td{
 table{
 	border-collapse: collapse;
 }
+
+video{
+	margin-bottom: 20px;
+	margin-left: 160px;
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	filter: grayscale(100%);  /*turns the video into gray*/
+}
